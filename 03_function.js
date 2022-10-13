@@ -1,6 +1,7 @@
 
-function prashant(){
-    console.log("please go to market")
-    console.log("buy some vegatables")
+function prashant(value){
+    // console.log("please go to market")
+    // console.log("buy some vegatables")
+    console.log(value);
 }
-prashant();
+prashant(100);

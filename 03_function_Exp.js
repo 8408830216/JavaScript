@@ -4,7 +4,7 @@ var test = function(arg1, arg2){
 }
 
 
-var returnValue = test(10, 20);
-// test(10, 20);
-console.log(returnValue);
+// var returnValue = test(10, 20);
+test(10, 20);
+// console.log(returnValue);
 
