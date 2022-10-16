@@ -1,7 +1,7 @@
 var forSquare= function(value){
     console.log(value * value);
 }
-console.log("Square of 5:",);
+console.log("Square of 5:");
 forSquare(5);
 console.log("Square of 6:");
 forSquare(6);

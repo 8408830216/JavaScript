@@ -1,7 +1,3 @@
-var p_name = "Prashant";
-var age = 22;
-var city = 'Pune';
-var married_status = false;
 
 console.log(typeof 31 );
 console.log(typeof false);
