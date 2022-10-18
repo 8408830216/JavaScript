@@ -1,8 +1,9 @@
 
 function prashant(value){
-    console.log("please go to market")
-    console.log("buy some vegatables")
+    
+    console.log("buy some vegatables");
     console.log(value);
+    console.log(value.length);
 }
-prashant(100); 
+prashant("prashant patil"); 
 
