@@ -18,8 +18,10 @@ let person={
     }
     
 }
-  
-
+console.log("========in operator=========================");
+let isAvailable='fullName'in person;
+console.log(isAvailable);
+console.log("=================================");
 console.log(Object.entries(person)); //if we wnn to find the total number of keys
 console.log("=================================");
 console.log(Object.keys(person));   //if we wnn to find the total number of keys
