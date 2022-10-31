@@ -6,6 +6,6 @@ console.log(city,typeof city);
 console.log(is_married , typeof is_married);
  
 var forUndefine=
-console.log(forUndefine);
+console.log(forUndefine ,typeof forUndefine);
 var forNull=null;
 console.log(typeof forNull);
