@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Local Storage Assignment</title>
+    </head>
+    <body>
+        <h3>Understanding Local Storage (Assignment2)</h3>
+        <script>
+            window.localStorage.setItem("ROYAL ENFIELD","2Lack");
+            window.localStorage.setItem("KTM","3Lack");
+            window.localStorage.setItem("BAJAJ","1.5Lack");
+            window.localStorage.setItem("KAWASAKI","10Lack");
+            window.localStorage.setItem("BMW","15Lack");
+            window.localStorage.setItem("HONDA","4Lack");
+            
+            let lngth=window.localStorage.length
+            console.log(`Length of Local storage is :-  ${lngth}`);
+            
+            let toGet=window.localStorage.getItem("BAJAJ")
+            console.log(`Using Get Item :-  ${toGet}`);
+        </script>
+    </body>
+</html>

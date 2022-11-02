@@ -25,3 +25,11 @@ let otherArray=[...arrayOfNumbers];
 arrayOfNumbers[3] = 44;
 console.log(arrayOfNumbers);
 console.log(otherArray);
+
+console.log("========== Resize array========");
+var arrayOfNumbers = [1, 3, 7, 8, 9, 3, 7];
+console.log(arrayOfNumbers.length);
+arrayOfNumbers.length = 3;
+console.log(arrayOfNumbers.length);
+console.log(arrayOfNumbers);
+console.log("========== Resize array========");

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Session Storage Assignment</title>
+    </head>
+    <body>
+        <h3>Understanding Session Storage (Assignment1)</h3>
+        <script>
+            window.sessionStorage.setItem("Prashant","Pune");
+            window.sessionStorage.setItem("Yash","Mumbai");
+            window.sessionStorage.setItem("Rahul","Nagpur");
+            window.sessionStorage.setItem("Anushkaa","Kolhapur");
+            window.sessionStorage.setItem("Kshitija","Nashik");
+            
+            let lngth=window.sessionStorage.length
+            console.log(`Length of session storage is :-  ${lngth}`);
+            
+            let sss=window.sessionStorage.getItem("Prashant")
+            console.log(`Using Get Item :-  ${sss}`);
+        </script>
+    </body>
+</html>
