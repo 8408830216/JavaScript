@@ -10,7 +10,7 @@ console.log("============================================");
 const mapMethod= arrayOfNumbers.map((element)=>{
     return element>=4
 })
-console.log(mapMethod);   //we can also use the map but it will only give boolean values
+console.log(mapMethod);   //we can also use the map but over the filter method it will only give boolean values
 
 console.log("============================================");
 
